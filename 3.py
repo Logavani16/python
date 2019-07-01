@@ -1,7 +1,8 @@
-l=input()
-if l in ('a','e','i','o','u'):
-  print("Vowel")
-elif l in ('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','u','v','w','x','y','z'):
-  print("Consonant")
+ch=input()
+if ch.isalpha():
+    if(ch=='A'or ch=='E'or ch=='I'or ch=='O'or ch=='U'or ch=='a'or ch=='e'or ch=='i'or ch=='o'or ch=='u'):
+          print("Vowel")
+    else:
+          print("Consonant")
 else:
-  print("invalid")
+    print("invalid")
