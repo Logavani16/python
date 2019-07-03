@@ -1,0 +1,5 @@
+r1=int(input())
+r2=list(map(int,input().split()[:r1]))
+r2.sort()
+l=int((len(r2))/2)
+print(r2[l])
