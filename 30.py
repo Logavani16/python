@@ -1,0 +1,5 @@
+zen1,yen1=map(int,input().split())
+lent1,fen1=map(int,input().split())
+cen1=abs(zen1-lent1)
+den1=abs(yen1-fen1)
+print(cen1,den1)
