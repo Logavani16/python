@@ -1,2 +1,2 @@
-r1=int(input())
-print(r1+1)
+vani=int(input())
+print(vani+1)
